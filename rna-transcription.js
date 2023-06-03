@@ -1,4 +1,9 @@
-const toRna = (rna) => {
+//
+// This is only a SKELETON file for the 'RNA Transcription' exercise. It's been provided as a
+// convenience to get you started writing code faster.
+//
+
+export const toRna = (rna) => {
   const obj = {
     G: "C",
     C: "G",
@@ -7,4 +12,3 @@ const toRna = (rna) => {
   };
   return rna.replace(/[GCTA]/g, (x) => obj[x]);
 };
-console.log(toRna("CG"));
